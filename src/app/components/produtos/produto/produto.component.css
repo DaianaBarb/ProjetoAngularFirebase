@@ -1,0 +1,8 @@
+#card{
+position: relative;
+}
+#card2{
+    position: absolute;
+    width:550px;
+margin-left: -1200px;
+}

@@ -1,0 +1,16 @@
+.card3{
+    width:450px;
+margin-left: -400px;
+margin-top: 100px;
+color: bisque;
+
+
+}
+tr{
+    color: beige;
+}
+#tr:hover{
+    font-size: 18px;
+    color: beige;
+background-color: rgba(170, 52, 76, 0.514);
+}

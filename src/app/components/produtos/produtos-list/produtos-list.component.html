@@ -1,0 +1,18 @@
+<div class="card3">
+
+<div class="card-body">
+    <h6 class="text-center"> Lista de Produtos</h6>
+    <table id="table" class="table table-sm table-hover">
+     <tbody class="tab">
+         <tr id="tr" *ngFor="let Produto of produtoLista">
+             <td>{{Produto.nome}}</td>
+             <td>{{Produto.categoria}}</td>
+             <td><a class="btn btn-secondary text-white" (click)="onEdit(Produto)"> <i class="far fa-edit"></i></a>
+                <a class="btn btn-danger text-white" (click)="onDelete(Produto.$key)"> <i class="far fa-trash-alt"></i></a>
+        </td>
+             
+         </tr>
+     </tbody>
+    </table>
+</div>
+</div>
